@@ -4,8 +4,11 @@ _ = require('wegweg')({
 
 app = module.exports = new (require 'express').Router
 
-app.get '/public-method', (req,res,next) ->
-  res.respond {custom_data:_.uuid()}
+# @todo
+app.get '/record', (req,res,next) ->
+  res.respond {
+    pong: _.uuid()
+  }
 
 ##
 app.AUTO_EXPOSE = {
