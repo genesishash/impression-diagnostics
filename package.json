@@ -1,7 +1,7 @@
 {
   "name": "impression-diagnostics",
   "version": "1.9.1",
-  "description": "gather client-side diagnostics on individual impressions",
+  "description": "gathers extended client-side metrics",
   "main": "app.iced",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

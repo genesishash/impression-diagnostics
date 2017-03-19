@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://taky.s3.amazonaws.com/01pgsd8rtk8u.svg" width="165">
+  <img src="https://taky.s3.amazonaws.com/01pgsd8rtk8u.svg" width="145">
 </p>
 
 # impression-diagnostics
