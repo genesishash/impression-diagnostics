@@ -2,12 +2,12 @@ module.exports = conf = {
   cluster: off
   port: 10001
 
-  mongo: 'localhost/mkay-api'
+  mongo: 'localhost/impdiag'
   redis: 'localhost'
   memcached: 'localhost'
 
   cookie_session: {
-    enabled: yes
+    enabled: no
     secret_key: 'MY_UNIQUE_ENCRYPTION_KEY'
   }
 

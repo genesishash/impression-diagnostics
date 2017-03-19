@@ -1,0 +1,30 @@
+{
+  "name": "webpack-boiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.iced",
+  "scripts": {
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "funny-versions": "0.0.1",
+    "handlebars": "^4.0.6",
+    "handlebars-loader": "^1.4.0",
+    "handlebars-template-loader": "^0.7.0",
+    "html-webpack-plugin": "^2.28.0",
+    "iced-coffee-loader": "^0.7.3",
+    "iced-runtime": "^1.0.3",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.5.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "dependencies": {
+    "wegweg": "^0.14.0"
+  }
+}
